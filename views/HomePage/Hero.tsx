@@ -19,7 +19,7 @@ export default function Hero() {
           Hyper Personalized <br /> Win-Back Campaigns
         </Heading>
         <Description>
-          We help you with crafting the perfect win-back campaign for your churning customers. Using their data and the power of AI, we are
+          We help you craft the perfect win-back campaign for your churning customers. Using their data and the power of AI, we are
           able to capture the attention of each individual customer by sending them <u>what they want to see.</u>
         </Description>
         <CustomButtonGroup>

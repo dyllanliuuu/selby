@@ -32,6 +32,9 @@ export default function Hero() {
               Features <span>&rarr;</span>
             </Button>
           </NextLink> */}
+          <Button transparent style={{padding: 0, width: 150}}>
+            <NextImage src={'/backed-by-yc/tan.svg'} layout={"fill"} />
+          </Button>
         </CustomButtonGroup>
       </Contents>
       <div style={{ flexDirection: 'column' }}>

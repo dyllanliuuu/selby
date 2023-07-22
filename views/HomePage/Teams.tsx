@@ -6,12 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Container from 'components/Container';
 import { media } from 'utils/media';
 
-const TEAM_LOGOS = [
-  'logo-amazon.svg',
-  'logo-mckinsey.svg',
-  'logo-netflix.svg',
-  'logo-bair.svg',
-];
+const TEAM_LOGOS = ['logo-amazon.svg', 'logo-mckinsey.svg', 'logo-netflix.svg', 'logo-bair.svg'];
 
 export default function Teams() {
   return (
@@ -32,7 +27,7 @@ export default function Teams() {
         className="swiper-wrapper"
       >
         {TEAM_LOGOS.map((logo) => (
-          <SwiperSlide key={logo}>
+          <SwiperSlide key={logo} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
             <NextImage src={'/teams/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} />
           </SwiperSlide>
         ))}

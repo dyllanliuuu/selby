@@ -7,6 +7,7 @@ import HeroIllustration from 'components/HeroIllustation';
 import OverTitle from 'components/OverTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
+import NextImage from 'next/image';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
@@ -19,8 +20,8 @@ export default function Hero() {
           Hyper Personalized <br /> Win-Back Campaigns
         </Heading>
         <Description>
-          We help you craft the perfect win-back campaign for your churning customers. Using their data and the power of AI, we are
-          able to capture the attention of each individual customer by sending them <u>what they want to see.</u>
+          We help you craft the perfect win-back campaign for your churning customers. Using their data and the power of AI, we are able to
+          capture the attention of each individual customer by sending them <u>what they want to see.</u>
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
@@ -33,9 +34,12 @@ export default function Hero() {
           </NextLink> */}
         </CustomButtonGroup>
       </Contents>
-      <ImageContainer>
-        <HeroIllustration />
-      </ImageContainer>
+      <div style={{ flexDirection: 'column' }}>
+        <ImageContainer>
+          <HeroIllustration />
+        </ImageContainer>
+        <NextImage src={'/example-email.svg'} width={600} height={400} />
+      </div>
     </HeroWrapper>
   );
 }

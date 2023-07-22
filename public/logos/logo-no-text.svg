@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:svgjs="http://svgjs.dev/svgjs" width="277" height="277" viewBox="0 0 277 277">
+    <svg viewBox="0 0 110 110" data-background-color="#ffffff"
+        preserveAspectRatio="xMidYMid meet" height="277" width="277"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg viewBox="0 0 109.74541056600897 109.74541056600897" height="109.74541056600897"
+            width="109.74541056600897">
+            <svg viewBox="0 0 157.0417084667627 157.0417084667627"
+                height="109.74541056600897" width="109.74541056600897">
+                <svg viewBox="0 0 157.04170846676274 157.0417084667627"
+                    height="157.0417084667627" width="157.04170846676274">
+                    <g id="icon-0">
+                        <svg viewBox="0 0 157.04170846676274 157.0417084667627"
+                            height="157.0417084667627" width="157.04170846676274">
+                            <g>
+                                <path xmlns="http://www.w3.org/2000/svg"
+                                    d="M47.113 157.042c-26.02 0-47.113-21.093-47.113-47.113v-62.816c0-26.02 21.093-47.113 47.113-47.113h62.816c26.02 0 47.113 21.093 47.113 47.113v62.816c0 26.02-21.093 47.113-47.113 47.113z"
+                                    fill="#1673FF" fill-rule="nonzero" stroke="none"
+                                    stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0"
+                                    font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none"
+                                    style="mix-blend-mode: normal"
+                                    data-fill-palette-color="accent"></path>
+                            </g>
+                            <g
+                                transform="matrix(1,0,0,1,31.40834169335256,49.76639907355316)">
+                                <svg
+                                    viewBox="0 0 94.22502508005762 57.50891031965639"
+                                    height="57.50891031965639"
+                                    width="94.22502508005762">
+                                    <g>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            version="1.1" x="0" y="0"
+                                            viewBox="1.399999976158142 13.300000190734863 61.277740478515625 37.400001525878906"
+                                            style="enable-background:new 0 0 64 64;"
+                                            xml:space="preserve"
+                                            height="57.50891031965639"
+                                            width="94.22502508005762"
+                                            class="icon-s-0"
+                                            data-fill-palette-color="quaternary"
+                                            id="s-0"><g fill="#ffffff" data-fill-palette-color="quaternary"><path d="M35.9 25V13.3h2.2c2.2 0 4 1.8 4 4v3.8c0 2.2-1.8 4-4 4H35.9z" fill="#ffffff" data-fill-palette-color="quaternary"></path><path d="M38.1 50.7h-2.2V39h2.2c2.2 0 4 1.8 4 4v3.8C42.1 48.9 40.3 50.7 38.1 50.7z" fill="#ffffff" data-fill-palette-color="quaternary"></path><path d="M30.9 39v11.7H19.2C8 50.7 1.4 43.5 1.4 31.6 1.4 20 7.8 13.3 19 13.3h11.9V25h-12c-5.2 0-7.7 2.2-7.7 6.7 0 5 2.4 7.2 7.7 7.2H30.9z" fill="#ffffff" data-fill-palette-color="quaternary"></path><path d="M45.1 21.4c0-0.5 0.2-0.9 0.6-1.2l6.4-5.2c0.5-0.4 1.1-0.4 1.6-0.2 0.5 0.3 0.9 0.8 0.9 1.4V19l5.6-4c0.7-0.5 1.7-0.3 2.2 0.4 0.5 0.7 0.3 1.7-0.4 2.2l-8.1 5.8c-0.5 0.3-1.1 0.4-1.6 0.1-0.5-0.3-0.8-0.8-0.8-1.4v-2.5l-3.9 3.1c-0.7 0.5-1.6 0.4-2.2-0.2C45.2 22.1 45.1 21.8 45.1 21.4z" fill="#ffffff" data-fill-palette-color="quaternary"></path><path d="M45.1 47.1c0-0.5 0.2-0.9 0.6-1.2l6.4-5.2c0.5-0.4 1.1-0.4 1.6-0.2 0.5 0.3 0.9 0.8 0.9 1.4v2.8l5.6-4c0.7-0.5 1.7-0.3 2.2 0.4 0.5 0.7 0.3 1.7-0.4 2.2L53.9 49c-0.5 0.3-1.1 0.4-1.6 0.1-0.5-0.3-0.8-0.8-0.8-1.4v-2.5l-3.9 3.1c-0.7 0.5-1.6 0.4-2.2-0.2C45.2 47.8 45.1 47.4 45.1 47.1z" fill="#ffffff" data-fill-palette-color="quaternary"></path></g></svg>
+                                    </g>
+                                </svg>
+                            </g>
+                        </svg>
+                    </g>
+                </svg>
+            </svg>
+            <defs></defs>
+        </svg>
+        <rect width="109.74541056600897" height="109.74541056600897" fill="none" stroke="none"
+            visibility="hidden"></rect>
+    </svg>
+</svg>

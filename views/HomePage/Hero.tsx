@@ -38,10 +38,12 @@ export default function Hero() {
         </CustomButtonGroup>
       </Contents>
       <div style={{ flexDirection: 'column' }}>
-        <ImageContainer>
+        {/* <ImageContainer>
           <HeroIllustration />
+        </ImageContainer> */}
+        <ImageContainer>
+          <NextImage src={'/example-email.svg'} width={600} height={400} />
         </ImageContainer>
-        <NextImage src={'/example-email.svg'} width={600} height={400} />
       </div>
     </HeroWrapper>
   );

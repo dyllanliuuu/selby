@@ -27,14 +27,14 @@ export default function Hero() {
           <Button onClick={() => setIsModalOpened(true)}>
             Join the Waitlist <span>&rarr;</span>
           </Button>
+          <Button transparent style={{ padding: 0, width: 150 }} onClick={() => (location.href = 'https://www.ycombinator.com/')}>
+            <NextImage src={'/backed-by-yc/tan.svg'} layout={'fill'} />
+          </Button>
           {/* <NextLink href="#whitepaper" passHref>
             <Button transparent>
               Features <span>&rarr;</span>
             </Button>
           </NextLink> */}
-          <Button transparent style={{padding: 0, width: 150}}>
-            <NextImage src={'/backed-by-yc/tan.svg'} layout={"fill"} />
-          </Button>
         </CustomButtonGroup>
       </Contents>
       <div style={{ flexDirection: 'column' }}>

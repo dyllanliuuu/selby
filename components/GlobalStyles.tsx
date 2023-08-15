@@ -16,15 +16,15 @@ export const GlobalStyle = createGlobalStyle`
   --secondBackground: 255,255,255;
   --text: 10,18,30;
   --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
-  --secondary: 10,18,30;
+  --primary: 210,104,204; 
+  --secondary: #d268cc;
   --tertiary: 231,241,251;
   --cardBackground: 255,255,255;
   --inputBackground: 255,255,255;
   --navbarBackground: 255,255,255;
   --modalBackground: 251,251,253;
   --errorColor: 207,34,46;
-  --logoColor: #243A5A;
+  --logoColor: #d268cc;
 }
 
 .next-dark-theme {

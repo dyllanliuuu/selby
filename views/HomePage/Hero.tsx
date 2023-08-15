@@ -15,17 +15,17 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>use A.I. to power your win-back campaign for each user</CustomOverTitle>
+        <CustomOverTitle>TRUSTED BY VARIOUS STORES WITH $100M+ IN SALES</CustomOverTitle>
         <Heading>
-          Hyper Personalized <br /> Win-Back Campaigns
+          Cross-sell your hottest products at other <br/> E-commerce stores
         </Heading>
         <Description>
-          We help you craft the perfect win-back campaign for your churning customers. Using their data and the power of AI, we are able to
-          capture the attention of each individual customer by sending them <u>what they want to see.</u>
+        We help E-commerce stores largely boost sales by cross-selling their products on other stores with complementary products <br/> 
+        (i.e. selling headsets at a keyboard store).
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Join the Waitlist <span>&rarr;</span>
+          <Button onClick={() => window.open('https://calendly.com/dyllan-berkeley/multi-store-cross-selling-for-your-products')}>
+            Start Selling <span>&rarr;</span>
           </Button>
           <Button transparent style={{ padding: 0, width: 150 }} onClick={() => (location.href = 'https://www.ycombinator.com/')}>
             <NextImage src={'/backed-by-yc/tan.svg'} layout={'fill'} />
@@ -42,7 +42,7 @@ export default function Hero() {
           <HeroIllustration />
         </ImageContainer> */}
         <ImageContainer>
-          <NextImage src={'/example-email.svg'} width={600} height={400} />
+          <NextImage src={'/selby_picture.jpg'} width={600} height={600} />
         </ImageContainer>
       </div>
     </HeroWrapper>

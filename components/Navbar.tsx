@@ -78,7 +78,7 @@ export default function Navbar({ items }: NavbarProps) {
           ))}
         </NavItemList>
         <ColorSwitcherContainer>
-          <ColorSwitcher />
+          {/* <ColorSwitcher /> */}
         </ColorSwitcherContainer>
         <HamburgerMenuWrapper>
           <HamburgerIcon aria-label="Toggle menu" onClick={toggle} />
@@ -96,7 +96,7 @@ function NavItem({ href, title, outlined }: SingleNavItem) {
   }
 
   if (outlined) {
-    return <CustomButton onClick={showNewsletterModal}>{title}</CustomButton>;
+    return <CustomButton onClick={() => window.open('https://calendly.com/dyllan-berkeley/multi-store-cross-selling-for-your-products')}>{title}</CustomButton>;
   }
 
   return (

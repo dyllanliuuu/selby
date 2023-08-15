@@ -50,13 +50,13 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <Container>
-        <ListContainer>
+        {/* <ListContainer>
           {footerItems.map((singleItem) => (
             <FooterList key={singleItem.title} {...singleItem} />
           ))}
-        </ListContainer>
+        </ListContainer> */}
         <BottomBar>
-          <ShareBar>
+          {/* <ShareBar>
             <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
               <a>
                 <TwitterIcon size={50} round={true} />
@@ -74,8 +74,8 @@ export default function Footer() {
                 <LinkedinIcon size={50} round={true} />
               </a>
             </NextLink>
-          </ShareBar>
-          <Copyright>&copy; Copyright 2021 My Saas Startup</Copyright>
+          </ShareBar> */}
+          <Copyright>&copy; Copyright 2023 Selby, Corp.</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

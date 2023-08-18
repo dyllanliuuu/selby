@@ -22,6 +22,7 @@ import { NavItems } from 'types';
 const navItems: NavItems = [
   // { title: 'Awesome SaaS Features', href: '/features' },
   // { title: 'Pricing', href: '/pricing' },
+  { title: 'Privacy Policy', href: '/privacy-policy' },
   { title: 'Contact', href: '/contact' },
   { title: 'Learn More', href: 'https://calendly.com/dyllan-berkeley/multi-store-cross-selling-for-your-products', outlined: true },
 ];

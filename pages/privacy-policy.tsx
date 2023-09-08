@@ -4,7 +4,8 @@ import RichText from 'components/RichText';
 
 export default function ContactPage() {
   return (
-    <Page title="Privacy policy">
+    // <Page title="Privacy policy">
+    <div style={{ margin: 50 }}>
       <PrivacyPolicyContainer>
         <RichText>
           <h1>Privacy Policy for Selby</h1>
@@ -93,7 +94,8 @@ export default function ContactPage() {
           </p>
         </RichText>
       </PrivacyPolicyContainer>
-    </Page>
+      </div>
+    // </Page>
   );
 }
 

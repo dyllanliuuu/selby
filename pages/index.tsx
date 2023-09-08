@@ -49,6 +49,9 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <li>Professional feature 3</li>
             </ul>
           </BasicSection> */}
+          <div style={{ fontSize: '1.5rem', display: 'flex', flexDirection: 'column', textAlign: 'center', paddingBottom: 50 }}>
+            &copy; Copyright 2023 Selby, Corp.
+          </div>
         </WhiteBackgroundContainer>
         {/* <DarkerBackgroundContainer>
           <Cta />
@@ -64,7 +67,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 
 const HomepageWrapper = styled.div`
   & > :last-child {
-    margin-bottom: 15rem;
+    margin-bottom: -15rem;
   }
 `;
 
@@ -80,7 +83,7 @@ const WhiteBackgroundContainer = styled.div`
   background: rgb(var(--secondBackground));
 
   & > :last-child {
-    padding-bottom: 15rem;
+    // padding-bottom: 15rem;
   }
 
   & > *:not(:first-child) {

@@ -6,12 +6,14 @@ import InformationSection from 'views/ContactPage/InformationSection';
 
 export default function ContactPage() {
   return (
-    <Page title="Contact" description="We'd love to hear from you!">
+    // <Page title="Contact" description="We'd love to hear from you!">
+    <div style={{ margin: 50 }}>
       <ContactContainer>
         <InformationSection />
         <FormSection />
       </ContactContainer>
-    </Page>
+    </div>
+    // </Page>
   );
 }
 
